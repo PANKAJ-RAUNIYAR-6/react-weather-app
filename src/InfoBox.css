@@ -1,0 +1,133 @@
+/* =========================
+   INFO BOX
+========================= */
+
+.InfoBox {
+    text-align: center;
+    padding: 10px 20px 40px;
+}
+
+/* Card Center */
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Weather Card */
+.cardContainer .MuiCard-root {
+    width: 100%;
+    max-width: 420px !important;
+    border-radius: 18px;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+/* Card Hover */
+.cardContainer .MuiCard-root:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.2);
+}
+
+/* Weather Image */
+.cardContainer .MuiCardMedia-root {
+    height: 190px !important;
+    transition: transform 0.4s ease;
+}
+
+.cardContainer .MuiCard-root:hover .MuiCardMedia-root {
+    transform: scale(1.03);
+}
+
+/* Card Content */
+.cardContainer .MuiCardContent-root {
+    padding: 25px;
+}
+
+/* City Name */
+.cardContainer h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #173b63;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+/* Weather Icon */
+.cardContainer h5 svg {
+    font-size: 30px;
+}
+
+/* Weather Details */
+.cardContainer p {
+    margin: 10px 0;
+    color: #4b5563;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* Temperature Highlight */
+.cardContainer p:first-child {
+    color: #1565c0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Weather Description */
+.cardContainer p:last-child {
+    margin-top: 18px;
+    padding-top: 15px;
+    border-top: 1px solid #e5e7eb;
+    font-size: 14px;
+}
+
+.cardContainer i {
+    color: #1565c0;
+    font-weight: 600;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 600px) {
+
+    .SearchBox {
+        padding: 0 15px;
+    }
+
+    .SearchBox form {
+        width: 100%;
+        gap: 12px;
+    }
+
+    .SearchBox .MuiTextField-root {
+        width: 100%;
+    }
+
+    .SearchBox .MuiButton-root {
+        width: 100%;
+    }
+
+    .InfoBox {
+        padding: 10px 15px 30px;
+    }
+
+    .cardContainer .MuiCard-root {
+        max-width: 100% !important;
+    }
+
+    .cardContainer .MuiCardMedia-root {
+        height: 170px !important;
+    }
+
+    .cardContainer h5 {
+        font-size: 23px;
+    }
+}

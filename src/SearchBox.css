@@ -1,0 +1,50 @@
+/* =========================
+   SEARCH BOX
+========================= */
+
+.SearchBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.SearchBox form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+/* MUI TextField ke liye */
+.SearchBox .MuiTextField-root {
+    width: 300px;
+    background: white;
+    border-radius: 8px;
+}
+
+/* Search Button */
+.SearchBox .MuiButton-root {
+    height: 56px;
+    padding: 0 28px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: none;
+    box-shadow: 0 5px 12px rgba(25, 118, 210, 0.25);
+    transition: all 0.3s ease;
+}
+
+.SearchBox .MuiButton-root:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(25, 118, 210, 0.35);
+}
+
+/* Error Message */
+.SearchBox p {
+    width: 100%;
+    margin: 5px 0 0;
+    font-size: 14px;
+    font-weight: 600;
+}

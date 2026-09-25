@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#root {
+    min-height: 100vh;
+}
+
+/* =========================
+   WEATHER APP
+========================= */
+
+.weatherApp {
+    min-height: 100vh;
+    padding: 1px 20px 50px;
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    position: relative;
+    transition: background-image 0.5s ease;
+}
+
+/* Dark overlay */
+.weatherApp::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.20);
+    z-index: 0;
+}
+
+/* Content overlay ke upar */
+.weatherApp > * {
+    position: relative;
+    z-index: 1;
+}
+
+
+/* =========================
+   HOT WEATHER
+========================= */
+
+.weatherApp.hot {
+    background-image: url("https://images.unsplash.com/photo-1525490829609-d166ddb58678?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+
+/* =========================
+   COLD WEATHER
+========================= */
+
+.weatherApp.cold {
+    background-image: url("https://plus.unsplash.com/premium_photo-1670430004754-60d86c50fb81?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+
+/* =========================
+   RAIN WEATHER
+========================= */
+
+.weatherApp.rain {
+    background-image: url("https://plus.unsplash.com/premium_photo-1671229652411-4468b946b787?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+
+/* =========================
+   HEADING
+========================= */
+
+.weatherApp h2 {
+    margin: 0;
+    padding: 35px 15px 25px;
+
+    text-align: center;
+    color: white;
+
+    font-size: 32px;
+    font-weight: 700;
+
+    text-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+    .weatherApp {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .weatherApp h2 {
+        font-size: 26px;
+        padding-top: 25px;
+    }
+}
