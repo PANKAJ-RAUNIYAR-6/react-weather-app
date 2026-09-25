@@ -158,5 +158,5 @@ This project was created to practice:
 
 **Your Name**
 ```
-GitHub: https://github.com/PANKAJ-RAUNIYAR-6/react-weather-app
+GitHub: https://github.com/PANKAJ-RAUNIYAR-6/react-weather-app.git
 ```
