@@ -6,9 +6,9 @@ The application dynamically changes the background and weather card image based 
 
 ## 🔗 Live Demo
 
-👉 **Live Website:** https://heartfelt-mochi-fe7a1b.netlify.app/
 
-👉 **GitHub Repository:** https://github.com/PANKAJ-RAUNIYAR-6/react-weather-app.git
+👉[ Visit React Weather App](https://heartfelt-mochi-fe7a1b.netlify.app/)
+
 
 ## ✨ Features
 
@@ -162,7 +162,8 @@ This project was created to practice:
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Pankaj Rauniyar**
 ```
-GitHub: https://github.com/PANKAJ-RAUNIYAR-6/react-weather-app.git
+GitHub: 
+👉[Visit GitHub Repository](https://github.com/PANKAJ-RAUNIYAR-6/react-weather-app.git)
 ```
