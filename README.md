@@ -4,7 +4,7 @@ A responsive weather application built with React.js that allows users to search
 
 The application dynamically changes the background and weather card image based on the current weather condition, such as sunny, cloudy, rainy, etc.
 
-## 🔗 Live Demo
+## 🌐 Live Demo
 
 
 👉[ Visit React Weather App](https://heartfelt-mochi-fe7a1b.netlify.app/)
@@ -160,10 +160,10 @@ This project was created to practice:
 - Responsive CSS
 - Error handling
 
-## 👨‍💻 Author
+## 👤 Author
 
 **Pankaj Rauniyar**
 
-* GitHub: [Pankaj Rauniyar](https://github.com/PANKAJ-RAUNIYAR-6)
+* 🐙GitHub: [Pankaj Rauniyar](https://github.com/PANKAJ-RAUNIYAR-6)
 
 
