@@ -164,6 +164,6 @@ This project was created to practice:
 
 **Pankaj Rauniyar**
 ```
-GitHub: 
-👉[Visit GitHub Repository](https://github.com/PANKAJ-RAUNIYAR-6/react-weather-app.git)
+* GitHub: [Pankaj Rauniyar](https://github.com/PANKAJ-RAUNIYAR-6/react-weather-app.git)
+
 ```
