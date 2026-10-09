@@ -163,7 +163,7 @@ This project was created to practice:
 ## 👨‍💻 Author
 
 **Pankaj Rauniyar**
-```
+
 * GitHub: [Pankaj Rauniyar](https://github.com/PANKAJ-RAUNIYAR-6)
 
-```
+
